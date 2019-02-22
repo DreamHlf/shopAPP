@@ -1,0 +1,182 @@
+#header{
+    width: 100%;
+    height: 1.48rem;
+    background: #fff;
+    position: fixed;
+    top: 0;
+}
+#return{
+    width: 7.02rem;
+    height: 0.8rem;
+    line-height: 0.3rem;
+    margin: 0 auto;
+    color: rgba(0,0,0,0.8);
+}
+#returnButton{
+    font-family: iconfont;
+    font-size: 0.4rem;
+}
+#header h1{
+    width: 7.02rem;
+    height: 0.67rem;
+    line-height: 0.68rem;
+    margin: 0 auto;
+    font-size: 0.38rem;
+    color: rgba(0,0,0,0.8);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+#main{
+    width: 100%;
+    height: 5.45rem;
+    background: #fff;
+    margin-top: 1.5rem;
+}
+#main #mainBox{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0.36rem 0;
+}
+#mainBox .mainTop{
+    width: 7.02rem;
+    height: 2.17rem;
+    background: #fff;
+}
+.mainTop .mainText{
+    width: 100%;
+    height: 0.36rem;
+    display: flex;
+    justify-content: space-between;
+}
+.mainText span{
+    width: 0.12rem;
+    height: 0.12rem;
+    background: #fa1c52;
+    border-radius: 50%;
+    margin-top: 0.12rem;
+    margin-right: 0.09rem;
+}
+.mainText p{
+    font-size: 0.26rem;
+    color: #010101;
+}
+.mainText .pre1{
+    font-size: 0.24rem;
+    color: #f92254;
+    margin-top: 0.05rem;
+}
+.mainText .pre2{
+    font-size: 0.36rem;
+    color: #f92254;
+    margin-left: 0.07rem;
+}
+.mainTop .mainCard{
+    width: 6.44rem;
+    height: 3.48rem;
+    margin: 0.5rem auto;
+}
+.mainCard img{
+    width: 6.44rem;
+    height: 3.48rem;
+    border-radius: 0.2rem;
+}
+.mainCard div{
+    width: 4.21rem;
+    height: 0.26rem;
+    margin: -0.56rem auto;
+    display: flex;
+}
+div .circle1{
+    width: 0.09rem;
+    height: 0.09rem;
+    background: rgba(248,50,88,0.3);
+    border-radius: 50%;
+    margin-top: 0.085rem;
+    margin-right: 0.03rem;
+}
+div .circle2{
+    width: 0.09rem;
+    height: 0.09rem;
+    background: rgba(248,50,88,0.6);
+    border-radius: 50%;
+    margin-top: 0.085rem;
+    margin-right: 0.03rem;
+}
+div .circle3{
+    width: 0.09rem;
+    height: 0.09rem;
+    background: rgba(248,50,88,0.8);
+    border-radius: 50%;
+    margin-top: 0.085rem;
+    margin-right: 0.03rem;
+}
+div p{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.6);
+    margin: -0.05rem 0.2rem;
+}
+#main .bottom{
+    width: 100%;
+    height: 7.88rem;
+    padding-top: 1.47rem;
+    position: absolute;
+    top: 5.46rem;
+    background: rgba(252,252,252,0.5);
+}
+.bottom .mainBottom{
+    width: 100%;
+    height: 6.4rem;
+    position: relative;
+}
+.mainBottom ul{
+    width: 4.35rem;
+    height: 0.5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    width: 0.59rem;
+    height: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+li .password{
+    width: 0.15rem;
+    height: 0.15rem;
+    background: #7a7d80;
+    border-radius: 50%;
+    margin: 0.04rem auto 0 auto;
+}
+li .passwordContext{
+    width: 0.59rem;
+    height: 0.08rem;
+    background: #e5e5e5;
+    margin-top: 0.23rem;
+    border-radius: 0.1rem;
+}
+li .password1{
+    font-size: 0.3rem;
+    color: rgba(1,1,1,0.6);
+    margin: 0.01rem auto;
+}
+li .passwordContext1{
+    width: 0.59rem;
+    height: 0.08rem;
+    background: #b2b2b2;
+    border-radius: 0.1rem;
+}
+li .passwordContext2{
+    width: 0.59rem;
+    height: 0.08rem;
+    background: #e5e5e5;
+    margin-top: 0.42rem;
+    border-radius: 0.1rem;
+}
+.mainBottom img{
+    width: 100%;
+    height: 4.48rem;
+    position: fixed;
+    bottom: 0;
+}

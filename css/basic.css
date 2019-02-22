@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+html{
+    font-size: 100px;
+}
+@media (min-width: 320px) {
+    html{
+        font-size: 42.66667px;
+    }
+}
+@media (min-width: 360px) {
+    html{
+        font-size: 48px;
+    }
+}
+@media (min-width: 375px) {
+    html{
+        font-size: 50px;
+    }
+}
+@media (min-width: 414px) {
+    html{
+        font-size: 55.2px;
+    }
+}
+@media (min-width:569px){
+    html{
+        font-size: 75.86px;
+    }
+}
+@media (min-width:1024px){
+    html{
+        font-size: 136.533px;
+    }
+}
+@media (min-width:728px){
+    html{
+        font-size: 97.06px;
+    }
+}

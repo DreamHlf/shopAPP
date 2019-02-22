@@ -1,0 +1,197 @@
+#header{
+    width: 100%;
+    height: 1.48rem;
+    background: #fff;
+    position: fixed;
+    top: 0;
+}
+#return{
+    width: 7.02rem;
+    height: 0.8rem;
+    line-height: 0.3rem;
+    margin: 0 auto;
+    color: rgba(0,0,0,0.8);
+}
+#returnButton{
+    font-family: iconfont;
+    font-size: 0.4rem;
+}
+#header h1{
+    width: 7.02rem;
+    height: 0.67rem;
+    line-height: 0.68rem;
+    margin: 0 auto;
+    font-size: 0.38rem;
+    color: rgba(0,0,0,0.8);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+#main{
+    width: 100%;
+    height: 5.45rem;
+    background: #fff;
+    padding-top: 1.3rem;
+}
+#main #mainBox{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0.36rem 0;
+}
+#mainBox .mainTop{
+    width: 7.02rem;
+    height: 2.17rem;
+    background: #fff;
+}
+.mainTop .mainText{
+    width: 100%;
+    height: 0.36rem;
+    display: flex;
+}
+.mainText span{
+    width: 0.12rem;
+    height: 0.12rem;
+    background: #fa1c52;
+    border-radius: 50%;
+    margin-top: 0.12rem;
+    margin-right: 0.09rem;
+}
+.mainText p{
+    font-size: 0.26rem;
+    color: #010101;
+}
+.mainText .pre1{
+    font-size: 0.24rem;
+    color: #f92254;
+    margin-left: 2.53rem;
+    margin-top: 0.05rem;
+}
+.mainText .pre2{
+    font-size: 0.36rem;
+    color: #f92254;
+    margin-left: 0.07rem;
+}
+.mainTop .mainCard{
+    width: 6.44rem;
+    height: 3.48rem;
+    margin: 0.5rem auto;
+}
+.mainCard img{
+    width: 6.44rem;
+    height: 3.48rem;
+    border-radius: 0.2rem;
+}
+.mainCard div{
+    width: 4.21rem;
+    height: 0.26rem;
+    margin: -0.56rem auto;
+    display: flex;
+}
+div .circle1{
+    width: 0.09rem;
+    height: 0.09rem;
+    background: rgba(248,50,88,0.3);
+    border-radius: 50%;
+    margin-top: 0.085rem;
+    margin-right: 0.03rem;
+}
+div .circle2{
+    width: 0.09rem;
+    height: 0.09rem;
+    background: rgba(248,50,88,0.6);
+    border-radius: 50%;
+    margin-top: 0.085rem;
+    margin-right: 0.03rem;
+}
+div .circle3{
+    width: 0.09rem;
+    height: 0.09rem;
+    background: rgba(248,50,88,0.8);
+    border-radius: 50%;
+    margin-top: 0.085rem;
+    margin-right: 0.03rem;
+}
+div p{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.6);
+    margin: -0.05rem 0.2rem;
+}
+#main .bottom{
+    width: 100%;
+    height: 7.88rem;
+    padding-top: 1.47rem;
+    position: absolute;
+    top: 5.46rem;
+    background: rgba(252,252,252,0.5);
+}
+.bottom .mainBottom{
+    width: 100%;
+    height: 6.4rem;
+    position: relative;
+}
+.mainBottom .zhiBottom1{
+    width: 6.43rem;
+    height: 2.18rem;
+    position: absolute;
+    top: -0.05rem;
+    left: -0.46rem;
+}
+.mainBottom .zhiBottom2{
+    width: 100%;
+    height: 2.41rem;
+    position: absolute;
+    top: 0;
+}
+.mainBottom .zhiBottom3{
+    width: 100%;
+    height: 3.86rem;
+    position: absolute;
+    top: 0.21rem;
+}
+.mainBottom .zhiBottom4{
+    width: 100%;
+    height: 6.06rem;
+    position: absolute;
+    top: 0.34rem;
+}
+.mainBottom .zhiwen{
+    width: 1.97rem;
+    height: 1.99rem;
+    position: absolute;
+    top: 1.66rem;
+    left: 2.77rem;
+}
+.mainBottom .touch{
+    font-size: 0.26rem;
+    color: #fbaebf;
+    position: absolute;
+    top: 4.01rem;
+    left: 2.84rem;
+}
+.mainBottom .dian1{
+    width: 0.23rem;
+    height: 0.23rem;
+    background: #e7c7c0;
+    border-radius: 50%;
+    position: absolute;
+    top: 4.44rem;
+    left: 3.63rem;
+}
+.mainBottom .dian2{
+    width: 0.23rem;
+    height: 0.23rem;
+    background: #f78aa1;
+    border-radius: 50%;
+    position: absolute;
+    top: 4.74rem;
+    left: 3.63rem;
+}
+.mainBottom .dian3{
+    width: 0.23rem;
+    height: 0.23rem;
+    background: #f7557a;
+    border-radius: 50%;
+    position: absolute;
+    top: 5.03rem;
+    left: 3.63rem;
+}

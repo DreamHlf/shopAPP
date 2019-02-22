@@ -1,0 +1,216 @@
+#header{
+    width: 100%;
+    height: 6.82rem;
+    background: #f83158;
+}
+#return{
+    width: 7.02rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+}
+#returnButton{
+    width: 0.23rem;
+    height: 0.4rem;
+    font-family: iconfont;
+    font-size: 0.4rem;
+}
+#information{
+    width: 7.02rem;
+    height: 5.8rem;
+    margin: 0.1rem auto 0;
+    text-align: center;
+    padding: 0.1rem;
+}
+.touxiang{
+    width: 1.56rem;
+    height: 1.56rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.name{
+    font-size: 0.48rem;
+    color: #fff;
+    text-align: center;
+}
+.qianming{
+    width: 6.39rem;
+    height: 0.82rem;
+    font-size: 0.3rem;
+    color: rgba(255,255,255,0.6);
+    font-weight: bold;
+    margin: 0.31rem auto 0;
+}
+.star{
+    width: 1.25rem;
+    height: 0.26rem;
+    margin: 0.2rem auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.star img{
+    width: 0.26rem;
+    height: 0.26rem;
+}
+.set{
+    width: 2rem;
+    height: 0.64rem;
+    margin: 0.25rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.set img{
+    width: 0.64rem;
+    height: 0.64rem;
+}
+
+.ziliaoBox{
+    width: 4.5rem;
+    height: 1.2rem;
+    background: #fff;
+    border-radius: 0.9rem;
+    display: flex;
+    margin: -0.7rem auto 0;
+}
+.smallBox{
+    width: 4.22rem;
+    height: 1.03rem;
+    background: rgba(248,53,89,0.5);
+    border: 2px solid rgba(247, 57, 90, 0.5);
+    border-radius: 0.9rem;
+    margin-top: 0.08rem;
+    margin-left: 0.12rem;
+    text-align: center;
+    line-height: 1.03rem;
+}
+.smallBox p{
+    margin-top: -0.27rem;
+}
+.en{
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.1);
+}
+.ziliao{
+    font-size: 0.36rem;
+    color: #f83459;
+    font-weight: bold;
+}
+#main{
+    width: 7.02rem;
+    height: 5rem;
+    margin: 0 auto 0.98rem;
+}
+#main ul{
+    padding-top: 0.1rem;
+}
+#main ul li{
+    width: 7.02rem;
+    height: 0.92rem;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(193,193,193,0.76);
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 0.3rem;
+    padding: 0.17rem 0.18rem 0;
+}
+.left{
+    width: 0.58rem;
+    height: 0.58rem;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(193,193,193,0.76);
+    border-radius: 50%;
+    display: flex;
+}
+.left img{
+    width: 0.37rem;
+    height: 0.37rem;
+    margin-top: 0.105rem;
+    margin-left: 0.105rem;
+}
+.middle{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.8);
+    margin-top: 0.13rem;
+    margin-left: 0.2rem;
+}
+.right{
+    width: 0.69rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    background: #f83158;
+    box-shadow: 0 5px 10px rgba(247,55,89,0.5);
+    margin-top: 0.1rem;
+    margin-left: 4rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #fff;
+}
+.rightKefu{
+    width: 0.84rem;
+    height: 0.49rem;
+    background: #f83158;
+    box-shadow: 0 5px 10px rgba(247,55,89,0.5);
+    margin-top: 0.05rem;
+    margin-left: 3.86rem;
+    border-radius: 0.3rem;
+}
+.rightKefu .circle{
+    width: 0.45rem;
+    height: 0.45rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: 0.02rem;
+    margin-left: 0.02rem;
+    padding-top: 0.17rem;
+    padding-left: 0.17rem;
+}
+.circle .smallCircle{
+    width: 0.11rem;
+    height: 0.11rem;
+    background: #f83158;
+    border-radius: 50%;
+}
+.rightDizhi{
+    width: 0.3rem;
+    height: 0.3rem;
+    font-size: 0.3rem;
+    color: #dedede;
+    margin-left: 3.83rem;
+}
+
+
+
+/*footer*/
+#footer{
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    box-shadow: 0 1px 10px rgba(193,193,193,0.76);
+    position: fixed;
+    bottom: 0;
+}
+#footer .content{
+    width: 7.02rem;
+    height: 0.98rem;
+    margin: 0 auto;
+    display: flex;
+}
+.content .items{
+    height: 0.98rem;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 0.38rem;
+}
+.items img {
+    width: 0.49rem;
+    height: 0.49rem;
+}
+.items .footerButton{
+    height: 0.18rem;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.8);
+}

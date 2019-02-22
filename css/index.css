@@ -1,0 +1,369 @@
+.container{
+    width: 7.02rem;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+
+/*header*/
+#header{
+    width: 100%;
+    height: 0.88rem;
+    background: #f83158;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addressBox{
+    width: 0.42rem;
+    height: 0.42rem;
+    line-height: 0.42rem;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.address{
+    font-family: iconfont;
+    color: rgb(249,31,85);
+    font-size: 0.18rem;
+}
+.taiyuan{
+    font-size: 0.18rem;
+    color: #fff;
+    margin-left: -0.8rem;
+}
+.searchBox{
+    width: 5rem;
+    height: 0.42rem;
+    background: #fff;
+    border-radius: 0.21rem;
+}
+.search{
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-top: 0.07rem;
+    float: right;
+    margin-right: 0.25rem;
+    font-family: iconfont;
+    font-size: 0.18rem;
+    color: #f83158;
+}
+.input{
+    width: 3.8rem;
+    height: 0.25rem;
+    float: left;
+    border: none;
+    margin-top: 0.1rem;
+    font-size: 0.18rem;
+    background: transparent;
+    margin-left: 0.17rem;
+}
+
+/*banner*/
+#banner{
+    width: 100%;
+    height: 2.56rem;
+    margin-top: 0.98rem;
+    display: flex;
+    position: relative;
+}
+#imageBox{
+    width: 7.02rem;
+    height: 2.56rem;
+    margin: 0 auto;
+    position: relative;
+}
+#imageBox>li{
+    width: 7.02rem;
+    height: 2.56rem;
+    background: pink;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: 0 7px 10px rgba(247,55,89,0.2);
+}
+#imageBox>li>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#imageBox>li.active{
+    z-index: 1;
+}
+#pagerBox{
+    width: 0.62rem;
+    height: 0.09rem;
+    position: absolute;
+    left: 48%;
+    top: 2.38rem;
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+}
+#pagerBox li{
+    width: 0.09rem;
+    height: 0.09rem;
+    background: #fff;
+    border-radius: 50%;
+}
+#pagerBox li.active{
+    background: #00ffba;
+}
+
+/*nav*/
+#category{
+    width: 7.02rem;
+    height: 3.95rem;
+    margin: 0.26rem auto 0;
+}
+#category #categoryList{
+    width: 100%;
+    height: 1.97rem;
+    display: flex;
+    justify-content: space-between;
+}
+#categoryBox{
+    display: block;
+    width: 1.14rem;
+    height: 1.14rem;
+    border-radius: 20px;
+    background: #f83158;
+    margin-right: 20px;
+}
+#categoryBox>img{
+    width: 1.14rem;
+    height: 1.14rem;
+}
+#categoryBox>p{
+    width: 1.14rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    color: #f83158;
+    text-align: center;
+}
+
+/*active*/
+#active{
+    width: 7.02rem;
+    height: 2.24rem;
+    margin: 0.50rem auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+#active .item{
+    width: 2.24rem;
+    height: 2.24rem;
+    background: #eeeeee;
+}
+.item .p1{
+    text-align: center;
+    height: 0.28rem;
+    font-size: 0.28rem;
+    margin-top: 0.1rem;
+}
+.item .p2{
+    text-align: center;
+    width: 1.98rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.19rem;
+    color: rgba(0,0,0,0.5);
+    border: 1px solid #000;
+    border-radius: 0.05rem;
+    margin-top: 0.1rem;
+    margin-left: 0.15rem;
+}
+.item img{
+    width: 2.24rem;
+    height: 1.28rem;
+}
+
+/*main*/
+#main{
+    width: 7.02rem;
+    height: 7.46rem;
+    margin: 0.5rem auto 0.98rem;
+}
+#main #recommend{
+    text-align: center;
+}
+#recommend h2{
+    color: #f83158;
+    font-size: 0.35rem;
+}
+#main .p{
+    display: flex;
+    justify-content: space-between;
+}
+#main  .mainP{
+    text-align: center;
+    width: 1.3rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.18rem;
+    color: #787b7a;
+    border: 1px solid #787b7a;
+    border-radius: 0.2rem;
+    margin-top: 0.42rem;
+    margin-left: 0.15rem;
+}
+#main .p .active{
+    color: #f83158;
+    border:1px solid #f83158;
+}
+#main .p i{
+    font-family: iconfont;
+    font-size: 0.18rem;
+    color: #787b7a;
+}
+#main ul{
+    width: 7.02rem;
+    height: 5.86rem;
+}
+#main li{
+    width: 7.02rem;
+    height: 1.64rem;
+    border-radius: 0.1rem;
+    margin-top: 0.22rem;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(193,193,193,0.76);
+    position: relative;
+}
+#main .left{
+    width: 1.31rem;
+    height: 1.31rem;
+    position: absolute;
+    top: 0.165rem;
+    left: 0.17rem;
+}
+.left img{
+    width: 1.31rem;
+    height: 1.31rem;
+    border-radius: 0.1rem;
+}
+#main .right{
+    width: 5.11rem;
+    height: 1.31rem;
+    position: absolute;
+    top: 0.165rem;
+    right: 0.17rem;
+}
+.right h1{
+    width: 1.2rem;
+    height: 0.3rem;
+    font-size: 0.3rem;
+}
+.right .sale{
+    width: 3.42rem;
+    height: 0.23rem;
+    margin-top: 0.27rem;
+    display: flex;
+}
+.sale .star{
+    width: 0.24rem;
+    height: 0.23rem;
+    margin-right: 0.03rem;
+}
+.sale .num{
+    width: 0.35rem;
+    height: 0.23rem;
+    margin-left: 0.1rem;
+    font-size: 0.23rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.7);
+}
+.right .send{
+    width: 3.5rem;
+    height: 0.22rem;
+    margin-top: 0.25rem;
+    display: flex;
+}
+.send .sendRequire{
+    height: 0.22rem;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+    margin-right: 0.01rem;
+}
+.send span{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.5);
+}
+.send .sendCost{
+    height: 0.22rem;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+    margin-left: 0.01rem;
+}
+.right .style{
+    height: 0.33rem;
+    background: #f83158;
+    border-radius: 0.05rem;
+    position: absolute;
+    top: 0.33rem;
+    right: 0;
+    color: #fff;
+    font-size: 0.18rem;
+    text-align: center;
+}
+.right #h1{
+    width: 4.1rem;
+    height: 0.3rem;
+    font-size: 0.3rem;
+}
+.right .minute{
+    height: 0.18rem;
+    position: absolute;
+    top: 0.8rem;
+    right: 0;
+    display: flex;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.7);
+}
+.right .minute1{
+    height: 0.18rem;
+    position: absolute;
+    top: 0.55rem;
+    right: 0;
+    display: flex;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.7);
+}
+
+/*footer*/
+#footer{
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    box-shadow: 0 1px 10px rgba(193,193,193,0.76);
+    position: fixed;
+    bottom: 0;
+}
+#footer .content{
+    width: 7.02rem;
+    height: 0.98rem;
+    margin: 0 auto;
+    display: flex;
+}
+.content .items{
+    height: 0.98rem;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 0.38rem;
+}
+.items img {
+    width: 0.49rem;
+    height: 0.49rem;
+}
+.items .footerButton{
+    height: 0.18rem;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.8);
+}

@@ -1,0 +1,187 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+}
+#header{
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+#header #return{
+    width: 7.02rem;
+    height: 0.8rem;
+    margin: 0 auto;
+}
+#return #returnButton{
+    font-family: iconfont;
+    font-size: 0.4rem;
+    color: rgba(0,0,0,0.5);
+    float: left;
+}
+#return #sign{
+    width: 1.56rem;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    margin-top: 0.17rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to right,#f73a5a,#fa1b52);
+    box-shadow: 0 1px 5px rgba(249,37,87,0.8);
+    text-align: center;
+    font-size: 0.3rem;
+    color: #fff;
+    float: right;
+}
+
+#nav{
+    width: 7.02rem;
+    height: 3.38rem;
+    margin: 0 auto;
+    display: flex;
+}
+#nav .navLeft{
+    width: 2.78rem;
+    height: 1.73rem;
+    margin-top: 0.825rem;
+}
+.navLeft h1{
+    font-size: 0.6rem;
+    color: rgba(0,0,0,0.9);
+}
+.navLeft h2{
+    font-size: 0.29rem;
+    color: rgba(0,0,0,0.7);
+}
+.navLeft h3{
+    font-size: 0.29rem;
+    color: rgba(0,0,0,0.5);
+}
+#nav .navRight{
+    width: 4.24rem;
+    height: 100%;
+}
+.navRight img{
+    width: 4.24rem;
+    height: 3.38rem;
+}
+main{
+    width: 6.1rem;
+    height: 4.34rem;
+    margin: 0.15rem auto;
+    padding: 0.2rem 0.345rem;
+    background: #fff;
+    box-shadow: 0 1px 10px rgba(182,182,182,0.4);
+}
+main .mainContent{
+    width: 5.41rem;
+    height: 3.94rem;
+}
+.mainContent .userNAME{
+    font-size: 0.36rem;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: -0.4rem;
+}
+.mainContent input{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.4);
+    border: none;
+}
+.mainContent hr{
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.mainContent .passWord{
+    font-size: 0.36rem;
+    color: rgba(0,0,0,0.5);
+    margin-top: 0.5rem;
+    margin-bottom: -0.4rem;
+}
+.mainContent .forget{
+    width: 100%;
+    height: 0.2rem;
+    margin-top: 0.28rem;
+    display: flex;
+}
+.forget i{
+    font-family: iconfont;
+    font-size: 0.26rem;
+    color: #f73a5a;
+}
+.forget span{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.4);
+    margin-top: -0.05rem;
+    margin-left: 0.15rem;
+}
+
+#login{
+    width: 6.1rem;
+    height: 1.2rem;
+    margin: 0.58rem auto 0 auto;
+    text-align: center;
+    line-height: 1.2rem;
+    background: #fff;
+    box-shadow: 0 1px 10px rgba(182,182,182,0.4);
+}
+#login h1{
+    font-size: 0.36rem;
+    color: rgba(0,0,0,0.5);
+}
+
+#third{
+    width: 3.73rem;
+    height: 1.25rem;
+    margin: 0.42rem auto 0 auto;
+}
+#third .thirdTop{
+    width: 100%;
+    height: 0.28rem;
+    display: flex;
+}
+.thirdTop .line{
+    width: 0.65rem;
+    height: 0.01rem;
+    margin: 0.135rem 0;
+    border: 0.5px solid rgba(0,0,0,0.4);
+}
+.thirdTop .thirdFont{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.4);
+    margin: -0.05rem 0.09rem 0 0.09rem;
+}
+#third .thirdBottom{
+    width: 2.8rem;
+    height: 0.79rem;
+    margin: 0.18rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.thirdBottom .bottomQQ , .thirdBottom .bottomWeixin{
+    width: 0.79rem;
+    height: 0.79rem;
+    background: #fff;
+    border: 0.5px solid rgba(182,182,182,0.4);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.45rem;
+}
+.bottomQQ .QQ{
+    width: 0.39rem;
+    font-size: 0.43rem;
+}
+.bottomWeixin .weixin{
+    width: 0.58rem;
+    font-size: 0.43rem;
+}
+footer{
+    width: 100%;
+    height: 1.17rem;
+    position: fixed;
+    bottom: 0;
+}
+footer img{
+    width: 1.39rem;
+    height: 1.17rem;
+}
+
+

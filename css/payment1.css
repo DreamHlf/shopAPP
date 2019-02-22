@@ -1,0 +1,391 @@
+#header{
+    width: 100%;
+    height: 4.25rem;
+    background: #f92254;
+    position: fixed;
+    top: 0;
+}
+#return{
+    width: 7.02rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+}
+#returnButton{
+    width: 0.23rem;
+    height: 0.4rem;
+    font-family: iconfont;
+    font-size: 0.4rem;
+}
+#return h1{
+    width: 7.02rem;
+    text-align: center;
+    font-size: 0.48rem;
+}
+#modify{
+    width: 0.4rem;
+    height: 0.4rem;
+    font-family: iconfont;
+    font-size: 0.4rem;
+}
+#nav{
+    width: 7.02rem;
+    height: 3.35rem;
+    margin: 0 auto;
+    padding: 0.2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#nav .span1{
+    font-size: 0.24rem;
+    color: #fff;
+    margin-bottom: 0.1rem;
+}
+#nav .span2{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-left: 0.1rem;
+    font-size: 0.2rem;
+    color: #fff;
+    margin-bottom: 0.1rem;
+}
+#nav .address{
+    font-size: 0.36rem;
+    color: #fff;
+    font-family: iconfont;
+    margin-bottom: 0.1rem;
+}
+#nav .name{
+    font-size: 0.26rem;
+    color: #fff;
+    margin-bottom: 0.1rem;
+}
+#nav .tel{
+    font-size: 0.26rem;
+    color: #fff;
+    margin-left: 0.15rem;
+    margin-bottom: 0.1rem;
+}
+#nav .send{
+    width: 7.02rem;
+    height: 1.62rem;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(193,193,193,0.76);
+    border-radius: 0.1rem;
+}
+.send .sendTop , .sendBottom{
+    width: 6.62rem;
+    height: 0.8rem;
+    margin: 0 auto;
+    padding-top: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.send hr{
+    width: 6.62rem;
+    margin: 0 auto;
+    border: 1px dashed rgba(0,0,0,0.05);
+}
+.sendTop .sendLeft{
+    height: 100%;
+    line-height: 0.6rem;
+    display: flex;
+}
+.sendLeft .sendTime{
+    font-size: 0.26rem;
+    color: #010101;
+    margin-right: 0.2rem;
+}
+.sendTop .sendRight{
+    height: 100%;
+    line-height: 0.6rem;
+    display: flex;
+}
+.sendRight span{
+    font-size: 0.22rem;
+    color: #f83058;
+}
+.sendRight i{
+    font-size: 0.22rem;
+    color: #f83058;
+    font-family: iconfont;
+}
+.sendBottom .sendZuo{
+    height: 100%;
+    line-height: 0.6rem;
+    font-size: 0.26rem;
+    color: #010101;
+}
+.sendBottom .sendYou{
+    height: 100%;
+    line-height: 0.6rem;
+    font-size: 0.22rem;
+    color: #f83058;
+}
+
+#main{
+    width: 100%;
+    height: 8.1rem;
+    background: #fff;
+    margin-top: 4.5rem;
+}
+#main #mainBox{
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0.25rem 0;
+}
+#mainBox .box1{
+    width: 7.02rem;
+    height: 5.25rem;
+    background: #fff;
+    box-shadow: 0 1px 10px rgba(193,193,193,0.76);
+    border-radius: 0.1rem;
+    padding: 0.2rem;
+}
+.box1 h1{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.8);
+    margin-bottom: 0.2rem;
+}
+.box1 .hr1{
+    border: 1px solid rgba(0,0,0,0.05);
+}
+.box1 .shop1 ,.shop2{
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    margin: 0.2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.shop1 img ,.shop2 img{
+    width: 0.88rem;
+    height: 0.88rem;
+    border-radius: 0.1rem;
+}
+.shop1 h2 ,.shop2 h2{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.8);
+}
+.shop1 div i , .shop2 div i{
+    width: 0.27rem;
+    height: 0.27rem;
+    font-family: iconfont;
+    font-size: 0.27rem;
+    color: #f82458;
+}
+.shop1 div .num ,.shop2 div .num{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.8);
+    margin-left: 0.1rem;
+}
+.shop1 del ,.shop2 del{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.5);
+    margin-left: 0.66rem;
+}
+.shop1 .money{
+    font-size: 0.28rem;
+    color: #f92254;
+    margin-left: 0.1rem;
+}
+.shop2 .money{
+    font-size: 0.28rem;
+    color: #f92254;
+    margin-left: 0.15rem;
+}
+.box1 .hr2{
+    border: 1px dashed rgba(0,0,0,0.05);
+}
+.box1 .cut{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.5);
+    margin: 0.15rem 0;
+}
+.box1 .hongbao{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.hongbao span{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.8);
+}
+.hongbao .hongbaoRight{
+    float: right;
+    display: flex;
+}
+.hongbaoRight .queen{
+    width: 3.3rem;
+    height: 0.25rem;
+    background: #f83358;
+    border-radius: 0.5rem;
+    font-family: iconfont;
+    margin: auto 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.queen i{
+    font-size: 0.18rem;
+    color: #fff;
+    font-family: iconfont;
+    margin-top: -0.13rem;
+}
+.queen span{
+    font-size: 0.18rem;
+    color: #fff;
+    margin-top: -0.12rem;
+}
+.hongbaoRight .more{
+    font-family: iconfont;
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.5);
+}
+.box1 .youhui{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.youhui .youhuiLeft{
+    float: left;
+    display: flex;
+}
+.youhuiLeft span{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.5);
+}
+.youhuiLeft i{
+    width: 0.21rem;
+    height: 0.21rem;
+    font-size: 0.21rem;
+    color: #8d8d8d;
+    font-family: iconfont;
+    margin-left: 0.14rem;
+}
+.youhui .youhuiRight{
+    float: right;
+    display: flex;
+}
+.youhuiRight .total{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.8);
+}
+.youhuiRight .spend{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.8);
+    margin-left: 0.25rem;
+}
+.youhuiRight p{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.8);
+    margin-left: 0.1rem;
+}
+
+#mainBox .box2{
+    width: 7.02rem;
+    height: 2.02rem;
+    background: #fff;
+    box-shadow: 0 1px 10px rgba(193,193,193,0.76);
+    border-radius: 0.1rem;
+    padding: 0.2rem;
+    margin-top: 0.3rem;
+}
+.box2 .item{
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+.item span{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.8);
+    float: left;
+}
+.item div{
+    float: right;
+    display: flex;
+}
+.item p{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.5);
+}
+.item i{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.5);
+    font-family: iconfont;
+}
+.box2 hr{
+    border: 1px dashed rgba(0,0,0,0.05);
+}
+
+
+
+/*footer*/
+#footer{
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    box-shadow: 0 1px 10px rgba(193,193,193,0.76);
+    position: fixed;
+    bottom: 0;
+}
+#footer .content{
+    width: 7.02rem;
+    height: 0.98rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content .contentLeft{
+    height: 0.36rem;
+    line-height: 0.36rem;
+    margin-top: 0.31rem;
+    display: flex;
+}
+.contentLeft .cost1{
+    font-size: 0.2rem;
+    color: #f83358;
+}
+.contentLeft .cost2{
+    font-size: 0.36rem;
+    color: #f83358;
+    margin-left: 0.05rem;
+}
+.contentLeft .text{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.5);
+    margin: 0 0.25rem;
+}
+.contentLeft .cost3{
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.5);
+    margin-left: 0.05rem;
+}
+.contentLeft .cost4{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.5);
+    margin-left: 0.05rem;
+}
+.contentLeft .cost5{
+    font-size: 0.36rem;
+    color: rgba(0,0,0,0.5);
+    margin-left: 0.05rem;
+}
+.content .contentRight{
+    width: 1.28rem;
+    height: 0.51rem;
+    background: #f82458;
+    margin: auto 0;
+    border-radius: 0.5rem;
+    font-size: 0.28rem;
+    color: #fff;
+    text-align: center;
+    border: 3px solid rgba(247,55,89,0.7);
+}
