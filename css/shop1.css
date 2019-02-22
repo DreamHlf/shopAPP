@@ -4,6 +4,8 @@
     background: rgb(248,52,89);
     line-height: 0.8rem;
     display: flex;
+    position: fixed;
+    top: 0;
 }
 #return{
     width: 7.02rem;
@@ -39,6 +41,7 @@
     width: 100%;
     height: 2rem;
     background: rgb(248,52,89);
+    margin-top: 0.8rem;
 }
 #nav .navBox{
     width: 7.02rem;

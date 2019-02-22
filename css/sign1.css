@@ -103,12 +103,11 @@ main .mainContent{
     border: 1px solid rgba(0,0,0,0.1);
 }
 .codeBox .codeRight{
-    width: 2.03rem;
     height: 0.5rem;
     line-height: 0.5rem;
     border-radius: 0.5rem;
     background-image: linear-gradient(to right,#f73a5a,#fa1b52);
-    margin-top: 0.35rem;
+    margin-top: -0.55rem;
     padding: 0 0.15rem;
     float: right;
     display: flex;
